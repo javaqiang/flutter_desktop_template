@@ -1,0 +1,28 @@
+name: flutter_desktop_template
+version: 1.0.0+1
+publish_to: none
+description: 桌面应用项目模板
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.3.3
+  bot_toast: ^4.0.2
+  loading_animation_widget: ^1.2.0+1
+  flutter_dotenv: 5.0.2
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/env/
