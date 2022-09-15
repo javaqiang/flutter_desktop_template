@@ -10,10 +10,10 @@ void main() async {
   runApp(
     GetMaterialApp(
       title: "Application",
-      builder: BotToastInit(),
+      // builder: BotToastInit(),
       initialRoute: AppPages.INITIAL,
-      navigatorKey: Get.key,
-      navigatorObservers: [BotToastNavigatorObserver()],
+      // navigatorKey: Get.key,
+      // navigatorObservers: [BotToastNavigatorObserver()],
       getPages: AppPages.routes,
     ),
   );
